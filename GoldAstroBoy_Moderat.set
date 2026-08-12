@@ -1,0 +1,56 @@
+; GoldSweeper_Fixed - Preset MODERAT
+; Basis: TIER_MODERAT di kode (ATR Multiplier 150, Zone Distance 0.5x ATR,
+; Lot Multiplier 1.5, Max Level 20, Cut Loss 15%)
+; Timeframe M30, trend dibaca dari Weekly -- lebih aktif dari Konservatif.
+; UPDATE: InpPipResilienceFactor disamakan dengan angka asli dari dashboard
+; Inova Prime tier "Moderate" (30.000 pips) -- dilihat langsung dari EA
+; asli yang sedang berjalan, bukan tebakan lagi. Catatan: EA asli pakai
+; mode "Auto Resilience", kita tetap pakai "Auto ATR" (InpATRMultiplier=150
+; sebagai basis kalkulasi harian), angka 30.000 ini jadi FALLBACK saja.
+InpExecTimeframe=30
+InpUsePipsForZoneDist=false
+InpMinZoneDistancePips=40.0
+InpMinZoneDistanceATR=0.5
+InpMinTargetProfitPips=20.0
+InpAllowCounterTrendEntry=true
+InpTrendTimeframe=32769
+InpLotSizingMode=2
+InpPipResilienceFactor=30000
+InpFixedLotSize=0.05
+InpATRMultiplier=150.0
+InpEnableMartingale=true
+InpLotMultiplier=1.5
+InpMaxMartingaleLevels=20
+InpMinProfitToCloseMartingale=1.0
+InpTradingDirection=0
+InpOnlyEnterWhenMartingaleActive=false
+InpBlockOppositeDirectionOrders=false
+InpBlockOppositeAfterAveragingMoreThan=3
+InpEnableAutoCutLoss=true
+InpCutLossFloatingPercent=15.0
+InpMaxSpreadPips=30.0
+InpMagicNumber=910002
+InpUseHardSL=true
+InpHardSLATRMultiplier=5.0
+InpUseMaxBasketLot=true
+InpMaxBasketLot=3.5
+InpSwingStrength=5
+InpZoneLookbackBars=300
+InpMaxZonesStored=15
+InpEnableDailyProfitTarget=false
+InpDailyProfitTarget=50.0
+InpEnableLossStreakCooldown=true
+InpMaxConsecutiveLosses=5
+InpCooldownHours=4
+InpApplyChartStyle=true
+InpShowZoneLines=true
+InpEnableTimeFilter=false
+InpTradingStartHour=6
+InpTradingEndHour=18
+InpEnableAdaptiveMode=false
+InpRegimeATRLookbackDays=30
+InpRegimeTrendLookbackBars=20
+InpShowDashboard=true
+InpEAName=GOLDSWEEPER-MODERAT
+InpDashboardX=10
+InpDashboardY=20
