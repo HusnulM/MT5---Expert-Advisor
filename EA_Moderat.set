@@ -1,0 +1,40 @@
+; ===== EA_Moderat.set =====
+; Profil: MODERAT
+; Timeframe disarankan: H1 / H4
+; Minimum balance disarankan: $3,000 - $5,000
+; Risiko per trade: 1.0% (cap $500)
+
+DonchianPeriod=20
+BreakoutBufferATR=0.20
+AllowLong=true
+AllowShort=true
+ADXPeriod=14
+ADXThreshold=22.0
+ATRPeriod=14
+ATR_SL_Multiplier=2.0
+RiskRewardRatio=1.5
+UseTrailingStop=true
+TrailingMode=0
+TrailingStartPips=300
+TrailingStepPips=150
+TrailingStartPercent=50.0
+TrailingStepPercent=25.0
+RiskPercent=1.0
+UseMaxRiskCap=true
+MaxRiskMoneyCap=500.0
+UseFixedLot=false
+FixedLotSize=0.01
+MaxLotSize=10.0
+UseTimeExit=true
+MaxBarsInTrade=48
+MagicNumber=20260727
+TradeComment=EA_Moderat
+ShowDashboard=true
+DashboardX=15
+DashboardY=25
+UseNewsFilter=true
+NewsCurrencyFilter=USD
+MinNewsImportance=2
+MinutesBeforeNews=60
+MinutesAfterNews=60
+CloseBeforeNews=false

@@ -1,0 +1,40 @@
+; ===== EA_Konservatif.set =====
+; Profil: KONSERVATIF
+; Timeframe disarankan: H4 / D1
+; Minimum balance disarankan: $1,000 - $2,000
+; Risiko per trade: 0.5% (cap $200)
+
+DonchianPeriod=25
+BreakoutBufferATR=0.30
+AllowLong=true
+AllowShort=true
+ADXPeriod=14
+ADXThreshold=27.0
+ATRPeriod=14
+ATR_SL_Multiplier=2.5
+RiskRewardRatio=2.0
+UseTrailingStop=true
+TrailingMode=1
+TrailingStartPips=300
+TrailingStepPips=150
+TrailingStartPercent=60.0
+TrailingStepPercent=20.0
+RiskPercent=0.5
+UseMaxRiskCap=true
+MaxRiskMoneyCap=200.0
+UseFixedLot=false
+FixedLotSize=0.01
+MaxLotSize=5.0
+UseTimeExit=true
+MaxBarsInTrade=60
+MagicNumber=20260727
+TradeComment=EA_Konservatif
+ShowDashboard=true
+DashboardX=15
+DashboardY=25
+UseNewsFilter=true
+NewsCurrencyFilter=USD
+MinNewsImportance=2
+MinutesBeforeNews=90
+MinutesAfterNews=90
+CloseBeforeNews=true

@@ -1,0 +1,40 @@
+; ===== EA_Agresif.set =====
+; Profil: AGRESIF
+; Timeframe disarankan: M15 / H1
+; Minimum balance disarankan: $5,000+
+; Risiko per trade: 2.0% (cap $1000)
+
+DonchianPeriod=14
+BreakoutBufferATR=0.10
+AllowLong=true
+AllowShort=true
+ADXPeriod=14
+ADXThreshold=18.0
+ATRPeriod=14
+ATR_SL_Multiplier=1.5
+RiskRewardRatio=1.2
+UseTrailingStop=true
+TrailingMode=1
+TrailingStartPips=150
+TrailingStepPips=75
+TrailingStartPercent=40.0
+TrailingStepPercent=15.0
+RiskPercent=2.0
+UseMaxRiskCap=true
+MaxRiskMoneyCap=1000.0
+UseFixedLot=false
+FixedLotSize=0.02
+MaxLotSize=15.0
+UseTimeExit=true
+MaxBarsInTrade=30
+MagicNumber=20260727
+TradeComment=EA_Agresif
+ShowDashboard=true
+DashboardX=15
+DashboardY=25
+UseNewsFilter=true
+NewsCurrencyFilter=USD
+MinNewsImportance=2
+MinutesBeforeNews=30
+MinutesAfterNews=30
+CloseBeforeNews=false
